@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Festa 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fdf6e3;
+            color: #3b2f2f;
+            padding: 16px;
+            min-height: 100vh;
+        }
+
+        .menu-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 24px 20px;
+        }
+
+        .menu-title {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #8b0000;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .menu-subtitle {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 24px;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #8b0000;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #8b0000;
+            padding-bottom: 6px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 8px 0;
+            border-bottom: 1px dotted #ddd;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            flex: 1;
+            font-size: 0.95rem;
+            padding-right: 12px;
+            line-height: 1.4;
+        }
+
+        .item-note {
+            font-size: 0.8rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .item-price {
+            font-weight: bold;
+            font-size: 1rem;
+            color: #8b0000;
+            white-space: nowrap;
+        }
+
+        .footer-note {
+            margin-top: 24px;
+            padding-top: 16px;
+            border-top: 1px solid #ddd;
+            font-size: 0.75rem;
+            color: #888;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .surgelato-note {
+            font-size: 0.8rem;
+            color: #888;
+            font-style: italic;
+            margin-top: 16px;
+        }
+
+        @media (max-width: 400px) {
+            body {
+                padding: 8px;
+            }
+
+            .menu-container {
+                padding: 16px 14px;
+            }
+
+            .menu-title {
+                font-size: 1.4rem;
+            }
+
+            .item-name {
+                font-size: 0.85rem;
+            }
+
+            .item-price {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-container">
+        <h1 class="menu-title">Listino Prezzi</h1>
+        <p class="menu-subtitle">Festa 2025</p>
+
+        <h2 class="section-title">Menu&rsquo;</h2>
+
+        <div class="menu-item">
+            <span class="item-name">Caprese (Pomodori e Mozzarella di Bufala)</span>
+            <span class="item-price">&euro; 5,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Pasta al Pomodoro / Rag&ugrave;</span>
+            <span class="item-price">&euro; 4,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Gnocchi al Pomodoro / Rag&ugrave;</span>
+            <span class="item-price">&euro; 5,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Casoncelli Ricotta e Spinaci</span>
+            <span class="item-price">&euro; 7,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Casoncelli di Zucca</span>
+            <span class="item-price">&euro; 7,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Lasagne Nostrane</span>
+            <span class="item-price">&euro; 8,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Trippa delle Maccagnere</span>
+            <span class="item-price">&euro; 8,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Bistecca di Manzo alla Griglia</span>
+            <span class="item-price">&euro; 7,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Spiedo di Carne alla Bresciana<br><span class="item-note">solo primo weekend</span></span>
+            <span class="item-price">&euro; 10,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Stracotto d&rsquo;Asino<br><span class="item-note">solo secondo weekend</span></span>
+            <span class="item-price">&euro; 12,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Fritto di Pesce Misto *</span>
+            <span class="item-price">&euro; 10,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Salamina con Polenta</span>
+            <span class="item-price">&euro; 5,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Panino con Salamina</span>
+            <span class="item-price">&euro; 5,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Piatto di Formaggio (Grana, Asiago, Cacio)</span>
+            <span class="item-price">&euro; 4,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Formaggio alla Piastra</span>
+            <span class="item-price">&euro; 7,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Piatto di Bresaola</span>
+            <span class="item-price">&euro; 5,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Patatine Fritte *</span>
+            <span class="item-price">&euro; 3,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Contorno di Pomodori</span>
+            <span class="item-price">&euro; 2,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Dolce</span>
+            <span class="item-price">&euro; 4,00</span>
+        </div>
+
+        <div style="page-break-before: always;"></div>
+        <h2 class="section-title">Bevande</h2>
+
+        <div class="menu-item">
+            <span class="item-name">Lambrusco</span>
+            <span class="item-price">&euro; 8,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Gutturnio</span>
+            <span class="item-price">&euro; 8,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Custoza (Bianco fermo)</span>
+            <span class="item-price">&euro; 8,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Prosecco</span>
+            <span class="item-price">&euro; 15,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Vino Bianco / Ros&eacute; alla Spina (mezzo litro)</span>
+            <span class="item-price">&euro; 4,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Vino Bianco / Ros&eacute; alla Spina (litro)</span>
+            <span class="item-price">&euro; 8,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Vino Bianco / Ros&eacute; alla Spina (bicchiere)</span>
+            <span class="item-price">&euro; 1,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Bibite in Lattina</span>
+            <span class="item-price">&euro; 2,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Acqua Gassata / Naturale (bottiglia)</span>
+            <span class="item-price">&euro; 1,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Acqua Gassata / Naturale (mezzo litro)</span>
+            <span class="item-price">&euro; 1,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Birra alla Spina</span>
+            <span class="item-price">&euro; 4,00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Birra Bionda Bottiglia 0,5l</span>
+            <span class="item-price">&euro; 5,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Caff&egrave;</span>
+            <span class="item-price">&euro; 1,20</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Caff&egrave; Corretto</span>
+            <span class="item-price">&euro; 1,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Amari e Liquori</span>
+            <span class="item-price">&euro; 3,50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Ghiaccioli</span>
+            <span class="item-price">&euro; 0,50</span>
+        </div>
+
+        <p class="surgelato-note">* Prodotto surgelato</p>
+
+        <p class="footer-note">
+            In cassa &egrave; disponibile il libro ingredienti con i componenti e gli allergeni di ogni singola preparazione alimentare.<br>
+            In caso di bisogno rivolgersi al personale.
+        </p>
+    </div>
+</body>
+</html>
